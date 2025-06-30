@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch Visual Timeline</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="stopwatch-container">
+        <h1>Stopwatch Visual Timeline</h1>
+        
+        <div id="display">
+            <span id="hours">00</span>:<span id="minutes">00</span>:<span id="seconds">00</span>.<span id="milliseconds">00</span>
+        </div>
+        
+        <div class="controls">
+            <button id="startStopBtn" class="btn-primary">Mulai</button>
+            <button id="lapResetBtn" class="btn-secondary">Reset</button>
+        </div>
+        
+        <div id="laps-timeline-container">
+            <div id="laps-timeline">
+                <!-- Lap visual akan muncul di sini -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
